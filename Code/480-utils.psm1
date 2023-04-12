@@ -103,12 +103,6 @@ function linkedclone() {
 # Creates linked Clone
 #/function linkedClone($selectedVM) {
     #$config = (Get-Content -Raw -Path "/home/sebastian/Documents/techJournal/SYS-480-DevOps/480.json" | ConvertFrom-Json)
-#     $snapshot = Get-Snapshot -VM $selectedVM.Name -Name "Base"
-#     $inputName = Read-Host "Enter a name for the linked VM" 
-#     $linkedClone = $inputName -f $selectedVM.Name
-#     $linkedVM = New-VM -LinkedClone -Name $linkedClone -VM $selectedVM.Name -ReferenceSnapshot $snapshot -VMHost $config.esxi_host -Datastore $config.default_datastore 
-#     $linkedVM | Get-NetworkAdapter | Set-NetworkAdapter -NetworkName $config.default_network -Confirm:$false
-#     Write-Host ""
-#     Write-Host "$linkedVM has been created"
-# }
+# 
+
 
